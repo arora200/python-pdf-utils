@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distributions and packaging
+.Python
+build/
+dist/
+wheels/
+*.egg
+
+# Installer logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+.tox/
+htmlcov/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Generated PDFs
+*.pdf
+!data/*.pdf # Do not ignore PDFs in the data folder
+filtered_*.pdf # Ignore generated filtered PDFs
+
+# Gemini specific files
+GEMINI.md
+
+# Ignore all text files
+*.txt
